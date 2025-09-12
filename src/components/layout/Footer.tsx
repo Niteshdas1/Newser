@@ -1,5 +1,6 @@
 @@ .. @@
    return (
+   )
 -    <footer className="bg-slate-900 dark:bg-slate-950 semi-dark:bg-slate-900 text-white mt-16 transition-colors duration-300">
 +    <footer className="bg-slate-900 dark:bg-slate-950 text-white mt-16 transition-colors duration-300">
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

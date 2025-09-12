@@ -1,5 +1,6 @@
 @@ .. @@
    return (
+   )
 -    <header className="bg-white dark:bg-slate-900 semi-dark:bg-slate-800 shadow-sm sticky top-0 z-50 border-b border-slate-200 dark:border-slate-700 semi-dark:border-slate-600 transition-colors duration-300">
 +    <header className="bg-white dark:bg-slate-900 shadow-sm sticky top-0 z-50 border-b border-slate-200 dark:border-slate-700 transition-colors duration-300">
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
