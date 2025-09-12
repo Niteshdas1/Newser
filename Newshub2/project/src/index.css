@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme Variables */
+:root {
+  --background: 248 250 252;
+  --foreground: 15 23 42;
+  --card: 255 255 255;
+  --card-foreground: 15 23 42;
+  --primary: 15 23 42;
+  --primary-foreground: 248 250 252;
+  --secondary: 241 245 249;
+  --secondary-foreground: 15 23 42;
+  --muted: 241 245 249;
+  --muted-foreground: 100 116 139;
+  --accent: 241 245 249;
+  --accent-foreground: 15 23 42;
+  --destructive: 239 68 68;
+  --destructive-foreground: 248 250 252;
+  --border: 226 232 240;
+  --input: 226 232 240;
+  --ring: 15 23 42;
+}
+
+.semi-dark {
+  --background: 30 41 59;
+  --foreground: 248 250 252;
+  --card: 51 65 85;
+  --card-foreground: 248 250 252;
+  --primary: 248 250 252;
+  --primary-foreground: 15 23 42;
+  --secondary: 71 85 105;
+  --secondary-foreground: 248 250 252;
+  --muted: 71 85 105;
+  --muted-foreground: 148 163 184;
+  --accent: 71 85 105;
+  --accent-foreground: 248 250 252;
+  --destructive: 239 68 68;
+  --destructive-foreground: 248 250 252;
+  --border: 71 85 105;
+  --input: 71 85 105;
+  --ring: 212 212 216;
+}
+
+.dark {
+  --background: 2 6 23;
+  --foreground: 248 250 252;
+  --card: 15 23 42;
+  --card-foreground: 248 250 252;
+  --primary: 248 250 252;
+  --primary-foreground: 15 23 42;
+  --secondary: 30 41 59;
+  --secondary-foreground: 248 250 252;
+  --muted: 30 41 59;
+  --muted-foreground: 148 163 184;
+  --accent: 30 41 59;
+  --accent-foreground: 248 250 252;
+  --destructive: 239 68 68;
+  --destructive-foreground: 248 250 252;
+  --border: 30 41 59;
+  --input: 30 41 59;
+  --ring: 212 212 216;
+}
+
+/* Base Styles */
+* {
+  border-color: rgb(var(--border));
+}
+
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Newspaper specific styles */
+.newspaper-column {
+  column-count: 3;
+  column-gap: 2rem;
+  column-rule: 1px solid rgb(var(--border));
+}
+
+@media (max-width: 1024px) {
+  .newspaper-column {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .newspaper-column {
+    column-count: 1;
+  }
+}
+
+/* Custom scrollbar for dark themes */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--muted-foreground));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--foreground));
+}
