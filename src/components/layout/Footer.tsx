@@ -2,6 +2,7 @@
    return (
    )
 -    <footer className="bg-slate-900 dark:bg-slate-950 semi-dark:bg-slate-900 text-white mt-16 transition-colors duration-300">
+    <footer className="bg-slate-900 dark:bg-slate-950 text-white mt-16 transition-colors duration-300">
 +    <footer className="bg-slate-900 dark:bg-slate-950 text-white mt-16 transition-colors duration-300">
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 @@ .. @@
@@ -29,7 +30,11 @@
 -              <li><a href="#" className="text-slate-300 dark:text-slate-400 semi-dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">Editorial Policy</a></li>
 -              <li><a href="#" className="text-slate-300 dark:text-slate-400 semi-dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">Privacy Policy</a></li>
 -              <li><a href="#" className="text-slate-300 dark:text-slate-400 semi-dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">Terms of Service</a></li>
--              <li><a href="#" className="text-slate-slate-300 dark:text-slate-400 semi-dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">Contact Us</a></li>
+              <li><a href="#" className="text-slate-300 dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">About Us</a></li>
+              <li><a href="#" className="text-slate-300 dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">Editorial Policy</a></li>
+              <li><a href="#" className="text-slate-300 dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">Privacy Policy</a></li>
+              <li><a href="#" className="text-slate-300 dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">Terms of Service</a></li>
+              <li><a href="#" className="text-slate-300 dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">Contact Us</a></li>
 +              <li><a href="#" className="text-slate-300 dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">About Us</a></li>
 +              <li><a href="#" className="text-slate-300 dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">Editorial Policy</a></li>
 +              <li><a href="#" className="text-slate-300 dark:text-slate-400 hover:text-white text-sm transition-colors duration-200">Privacy Policy</a></li>
